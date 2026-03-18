@@ -10,7 +10,7 @@ if (string.IsNullOrWhiteSpace(input))
 int[] numbers = input.Split(' ', StringSplitOptions.RemoveEmptyEntries)
     .Select(int.Parse)
     .ToArray();
-
+//TODO: check CalculateMin method
 Console.WriteLine($"Average: {CalculateAvarage(numbers)}");
 
 Console.WriteLine($"Max value: {CalculateMax(numbers)}");
