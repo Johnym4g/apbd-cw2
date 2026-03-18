@@ -1,0 +1,1 @@
+﻿readme dodane do main przed mergem feature-max do maina
