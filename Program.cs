@@ -15,7 +15,7 @@ Console.WriteLine($"Average: {CalculateAvarage(numbers)}");
 
 Console.WriteLine($"Max value: {CalculateMax(numbers)}");
 
-Console.WriteLine($"Min value: {CalculateMin(numbers)}");
+Console.WriteLine($"Testing of Min method: {CalculateMin(numbers)}");
 double CalculateAvarage(int[] val)
 {
     return val.Average();
