@@ -14,12 +14,19 @@ int[] numbers = input.Split(' ', StringSplitOptions.RemoveEmptyEntries)
 Console.WriteLine($"Average: {CalculateAvarage(numbers)}");
 
 Console.WriteLine($"Max value: {CalculateMax(numbers)}");
+
+Console.WriteLine($"Min value: {CalculateMin(numbers)}");
 double CalculateAvarage(int[] val)
 {
     return val.Average();
 }
 
 int CalculateMax(int[] val)
+{
+    return val.Max();
+}
+
+int CalculateMin(int[] val)
 {
     return val.Max();
 }
