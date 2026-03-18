@@ -28,5 +28,5 @@ int CalculateMax(int[] val)
 
 int CalculateMin(int[] val)
 {
-    return val.Max();
+    return val.Min();
 }
