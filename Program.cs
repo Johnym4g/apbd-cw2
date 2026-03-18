@@ -2,3 +2,9 @@
 string? input = Console.ReadLine();
 
 Console.WriteLine("User entered: " + input);
+
+if (string.IsNullOrWhiteSpace(input))
+{
+    Console.WriteLine("Error: Input cannot be empty! Please provide some numbers.");
+    return;
+}
