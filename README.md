@@ -1,1 +1,2 @@
 ﻿readme dodane do main przed mergem feature-max do maina
+po stworzeniu feature-max brancha dodalismy tam metode CalculateMax, jednoczesnie wprowadzilismy zmiane w mainie po stworzeniu innego brancha, weic przy mergowaniu musielismy stworzyc dodatkowy commit  laczacy obie historie 
