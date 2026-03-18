@@ -7,8 +7,19 @@ if (string.IsNullOrWhiteSpace(input))
     return;
 }
 
-double CalculateAvarage(int[] numbers)
+int[] numbers = input.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+    .Select(int.Parse)
+    .ToArray();
+
+Console.WriteLine($"Average: {CalculateAvarage(numbers)}");
+
+Console.WriteLine($"Max value: {CalculateMax(numbers)}");
+double CalculateAvarage(int[] val)
 {
-    return numbers.Average();
+    return val.Average();
 }
-Console.WriteLine($"Avarage: {CalculateAvarage(input.Split(' ').Select(int.Parse).ToArray())}");
+
+int CalculateMax(int[] val)
+{
+    return val.Max();
+}
